@@ -1,0 +1,5 @@
+From openjdk:8
+Expose 5067
+ADD /target/docker.jar docker.jar
+ENTRYPOINT ["java", "-jar", "docker.jar"]
+
