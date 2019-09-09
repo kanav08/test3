@@ -25,7 +25,7 @@
 <dependency>
     <groupId>com.h2database</groupId>
     <artifactId>h2</artifactId>
-<!--comments >
+
 </dependency>
 <!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
