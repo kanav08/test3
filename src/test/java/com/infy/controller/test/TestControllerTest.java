@@ -8,10 +8,13 @@ import com.infy.controller.TestController;
 
 public class TestControllerTest {
 int number=10;
+TestController tc=new TestController();
 	@Test
 	public void checkNumberTest() {
 		
-		TestController tc=new TestController();
-		 assertEquals("even",tc.checkNumber(number));  
+
+		 assertEquals("even",tc.checkNumber(number)); 
+		 System.out.println("Test executed sucessfully");
 	}
+	
 }
