@@ -15,6 +15,7 @@ TestController tc=new TestController();
 
 		 assertEquals("even",tc.checkNumber(number)); 
 		 System.out.println("Test executed sucessfully");
+		 System.out.println("Test executed sucessfully!!");
 	}
 	
 }
