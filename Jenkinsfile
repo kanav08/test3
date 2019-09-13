@@ -11,14 +11,14 @@ stage('Compile Stage')
 {
 steps
 {
-	sh 'mvn compile'
+	echo 'mvn compile'
 }
 }
 stage('Test Stage')
 {
 steps
 {
-sh 'mvn test'	
+echo 'mvn test'	
 }
 }
 stage('Deploy Stage')
