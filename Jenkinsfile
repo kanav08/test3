@@ -10,32 +10,12 @@ steps
 	withMaven(maven:'maven_3.3.9')
 	{
 	
-	sh 'mvn clean compile'
+	echo 'kanav'
 	}
 }
 }
 
-stage('Test Stage')
-{
-steps
-{
-	withMaven(maven:'maven_3.3.9')
-	{
-	
-	sh 'mvn test'
-	}
-}
-}
-stage('Deploy Stage')
-{
-steps
-{
-	withMaven(maven:'maven_3.3.9')
-	{
-	
-	sh 'mvn deploy'
-	}
-}
-}
+
+
 }
 }
