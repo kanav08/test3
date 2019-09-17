@@ -27,7 +27,7 @@
     <artifactId>h2</artifactId>
 
 </dependency>
-<!-- https://mvnrepository.com/artifact/junit/junit12 -->
+<!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
