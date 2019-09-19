@@ -1,5 +1,5 @@
 From openjdk:8
-Expose 5067
-ADD /target/docker.jar docker6.jar
-ENTRYPOINT ["java", "-jar", "docker6.jar"]
+Expose 2345
+ADD /target/docker.jar docker7.jar
+ENTRYPOINT ["java", "-jar", "docker7.jar"]
 
